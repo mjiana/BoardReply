@@ -1,0 +1,131 @@
+/*
+옅은 회색배경
+background-color: #ececec;
+background-color: #e2e2e2;
+짙은 회색배경
+background-color: #d9d9d9;
+background-color: #c9c9c9;
+하늘색 배경
+background-color: #b9f4ff;
+background-color: #93efff;
+노란색 배경
+background-color: #ffffd2;
+background-color: #ffffb0;
+*/
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+.left2{
+	text-align: left;
+	padding-left: 10px;
+}
+table{
+	width: auto;
+	min-width: 200px;
+	margin: auto;
+	text-align: center;
+	color: #4c4c4c;
+	FONT-FAMILY: 굴림,verdana,tahoma;
+	FONT-SIZE: 11pt; 
+	/*background-color: #ececec;
+	border:1px solid #ececec;
+	border-radius: 5px;*/
+}
+.tc1{
+	width: auto;
+	min-width: 60px;
+	background-color: #ececec;
+	border-radius: 5px; 
+}
+td{
+	width: auto;
+	min-width: 60px;
+	border:0px;
+}
+.t1{
+	background-color: #e2e2e2;
+	border-radius: 10px;
+}
+.t2{
+	min-width: 250px;
+	background-color: #e2e2e2;
+	border-radius: 10px;
+}
+font {
+	size: 4px;
+	color: #666666;
+}
+.f1{
+	size: 4px;
+	color: #ff4646;
+}
+.f2{
+	size: 3px;
+	font-weight: bold;
+	color:#acacac;
+}
+input[type=text], input[type=password]{
+	text-align: left;
+	width: 300px;
+	border: 1px solid gray;
+	color: #535353;
+	FONT-FAMILY:inherit;
+}
+.txt1{
+	text-align: left;
+	width: 50px;
+	vertical-align: middle;
+	background-color: white;
+	color: #535353;
+	FONT-FAMILY:inherit;
+	LINE-HEIGHT: 150%;
+}
+.txt2{
+	text-align: left;
+	width: 30px;
+	vertical-align: middle;
+	background-color: white;
+	color: #535353;
+	FONT-FAMILY:inherit;
+	LINE-HEIGHT: 150%;
+}
+input[type=button], input[type=reset], input[type=submit]{
+	text-align: center;
+	width: auto;
+	vertical-align: middle;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #535353;
+	FONT-FAMILY:inherit;
+	LINE-HEIGHT: 150%;
+}
+textarea{
+	text-align: left;
+	width: 300px;
+	height: 200px;
+	FONT-FAMILY:inherit;
+	color: #535353;
+}
+select{
+	text-align: center;
+	width: auto;
+	vertical-align: middle;
+	
+	font-weight: lighter;
+	FONT-FAMILY:inherit;
+}
+a:link{ 
+	font-weight:bold;
+	text-decoration: none; 
+	color: #5f5f5f;
+}
+a:hover, a:visited{
+	/* background-color:#d2d2d2; */
+	text-decoration:underline;
+	color: #5f5f5f;
+}
